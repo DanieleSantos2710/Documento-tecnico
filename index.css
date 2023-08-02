@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #F5F5F5
+  }
+  
+  section {
+    display: block;
+  }
+  
+  #navbar header {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  #navbar ul {
+    height: 50%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  #navbar li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #191970;
+    border: 2px solid;
+    list-style: none;
+    margin: 15px 50px 15px 50px;
+    padding: 0;
+    height: 50px;
+  }
+  
+  #navbar a {
+    display: block;
+    color: #4169E1;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    margin-top: 50px
+  }
+  
+  p {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px; 
+    margin-top: 10px
+  }
+  
+  h3 {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px;
+    margin-top: 20px
+  }
+  
+  h4 {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 17px; 
+    margin-top: 20px;
+  }
+  
+  header {
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+  }
+  
+  @media (max-width: 640px) {
+    #navbar {
+      padding-left: 10px;
+      padding-right: 10px
+    }
+  }
+  
+  @media (min-width: 640px) {
+    #navbar {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  } 
+  
+  @media (max-width: 640px) {
+    h3 {
+      font-size: 92%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    p {
+      font-size: 92%;
+    }
+  }
+  
